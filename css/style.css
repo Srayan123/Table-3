@@ -1,0 +1,27 @@
+table, th, td {
+    border: 1px solid black;
+}
+table {
+    width: 270px;
+}
+.Parent {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.Child {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.blank {
+    width: 27%;
+}
+.center {
+    text-align: center;
+}
+p {
+    font-size: 8px;
+    text-align: center;
+}
